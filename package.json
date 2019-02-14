@@ -1,0 +1,13 @@
+{
+  "name": "questionernew",
+  "version": "1.0.0",
+  "description": "Crowd-source questions for a meetup (repeated)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "",
+    "start": "git"
+  },
+  "author": "Khristof",
+  "license": "ISC"
+}
