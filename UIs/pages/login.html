@@ -1,37 +1,29 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <title>
             Log In
         </title>
-
+        <link rel="stylesheet" type="text/css" href="../stylesheet.css">
     </head>
 
-
     <body>
+        <div class="login-box">
+            <img src="../images/avatar.png" class="avatar">
+            <h1>LogIn to Questioner</h1>
+            <form id="theForm" action="" method="">
+                <p>Username</p>
+                <input type="text" name="username" placeholder="Enter Username or Email">
+                <p>Password</p>
+                <input type="password" name="password" placeholder="Enter password"> <br>
+                <input type="checkbox" id="checkbox" name="" class="checkBox" value="">
+                <label for = "checkbox"><h5>Remember me on this device</h5></label>
+                <input type="submit" name="submit" value="LogIn">
+                <a href="#">Forgot your password?</a> <br>
+                <a href=""><h5>Aren't you registered yet? Create your account.</h5></a>
+            </form>
 
-        <form id="theForm" action="" method="">
-
-            <!-- <label for="emailorusername">Email or Username</label> -->
-            <input type="text" placeholder="email or username" id="Username" name="">
-
-            <!-- <label for="password">Password</label> -->
-            <input type="text" placeholder="password" id="password" name="">
-
-            <input class="button" type="submit" value="Log In">
-
-            <h5>Not yet registered? Create your account</h5>
-
-            <h5><a href="#" class="forgot">Forgot your password?</a></h5>
-
-            <input type="checkbox" id="checkbox" name="" class="" value="Remember me on this device">
-
-          <label for = "checkbox">Remember me on this device</label>
-
-        </form>
+        </div>
 
     </body>
-    
 </html>
-
