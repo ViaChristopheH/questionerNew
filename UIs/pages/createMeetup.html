@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Meetup creation
+        </title>
+        <link rel="stylesheet" type="text/css" href="../css/stylesheet2.css">
+    </head>
+    <body>
+            <div class="meetup">
+                    <h1>You can create a meetup right now</h1>
+                    <form id="theForm" action="" method="">
+                      <input type="text" placeholder="Meetup Title/Topic..." required>
+                      <textarea rows="10" cols="80" class = "textarea" placeholder="Meetup Description..."></textarea>
+                      <p>Date of the meetup</p>
+                      <input type="Date" name="day" placeholder="Expected date of the meetup to take place...">
+                      <input type="text" placeholder="Meetup place..." required>
+                      <input type="text" placeholder="Meetup duration..." required>
+                      Medium channel of the meetup:
+								                                    								
+									<select>
+                                    
+									<option value="" class="select">[Please choose the appropriate medium/channel...]</option>
+									<option value="">Physical meeting</option>
+									<option value="">Video conference</option>
+									<option value="">Online</option>
+									<option value="">Via Telephone</option>
+									<option value="">Any other way</option>
+									
+                                    </select><br>
+                      <input type="number" name="numparts" min="1" max="50" placeholder="Number of participants...">
+                    </form>
+            </div>
+    </body>
+    </html>
