@@ -1,0 +1,70 @@
+body {
+    background: url(../images/meetup2.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.wrap {
+    max-width: 350px;
+    height: 560px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    padding: 40px;
+    color: #fff;
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+    color: aqua;
+}
+
+input[type = "text"], [type = "password"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: rgba(0, 0, 0, 0.10);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+input[type = "submit"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    opacity: 1;
+    font-size: 20px;
+    background: #081f44;
+    color:#fff;
+}
+
+input[type ="submit"]:hover {
+    cursor: pointer;
+    background: aqua;
+    color: #081f44;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    margin: 70px;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+    }
